@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jeu_memoire/static/css/main.f855e6bc.css",
+    "main.js": "/jeu_memoire/static/js/main.8b1ea7df.js",
+    "static/js/453.35ab8c81.chunk.js": "/jeu_memoire/static/js/453.35ab8c81.chunk.js",
+    "static/media/logo.svg": "/jeu_memoire/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jeu_memoire/index.html",
+    "main.f855e6bc.css.map": "/jeu_memoire/static/css/main.f855e6bc.css.map",
+    "main.8b1ea7df.js.map": "/jeu_memoire/static/js/main.8b1ea7df.js.map",
+    "453.35ab8c81.chunk.js.map": "/jeu_memoire/static/js/453.35ab8c81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8b1ea7df.js"
+  ]
+}
