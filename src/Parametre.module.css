@@ -1,19 +1,28 @@
-/* App.module.css */
-
-.appWrapper {
-  background: linear-gradient(to right, #7f00ff, #00c6ff);
-  min-height: 100vh;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .boiteBlanche {
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.titre {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 .range {
@@ -26,6 +35,12 @@
   font-size: 0.9rem;
   margin-top: 0.3rem;
   color: #666;
+}
+
+.boutonChoix {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
 }
 
 .boutonBleu {
@@ -47,25 +62,16 @@
 .boutonNoir {
   background-color: black;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 0.5rem;
   font-weight: bold;
+  display: block;
+  margin: auto;
 }
+@media (max-width: 600px) {
+  .boiteBlanche {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 
-.grilleCartes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-.carte {
-  background-color: white;
-  height: 5rem;
-  font-size: 2rem;
-  border-radius: 0.75rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
