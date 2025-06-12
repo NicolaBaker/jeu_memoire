@@ -113,7 +113,7 @@ export default function Jeu({ parametres, onRestart }) {
         </div>
       </div>
 
-      {/* Grille des cartes */}
+      {/* Grille des cartes NB*/}
       <div className={`${styles.grilleCartes} ${getGridClass()}`}>
 
         {cartes.map((carte) => (
@@ -130,7 +130,7 @@ export default function Jeu({ parametres, onRestart }) {
         ))}
       </div>
 
-      {/* Message si on gagne */}
+      {/* Message si on gagne NB*/}
       {(gagne || perdu) && (
         <div className={styles.popup}>
           <div className={styles.popupContenu}>

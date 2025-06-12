@@ -38,7 +38,7 @@ export default function Parametre({ onStart }) {
         </div>
       </div>
 
-      {/* Choix emojis */}
+      {/* Choix emojis NB*/}
       <div className={styles.boutonChoix}>
         {['Manger', 'Visage', 'Animal'].map((type) => (
           <button
@@ -51,7 +51,7 @@ export default function Parametre({ onStart }) {
         ))}
       </div>
 
-      {/* Slider erreurs */}
+      {/* Slider erreurs NB*/}
       <div className={styles.section}>
         <label className={styles.label}>Erreurs permises</label>
         <input
