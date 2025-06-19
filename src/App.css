@@ -1,71 +1,10 @@
-/* App.module.css */
 
 .appWrapper {
   background: linear-gradient(to right, #7f00ff, #00c6ff);
-  min-height: 100vh;
   padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.boiteBlanche {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
 
-.range {
-  width: 100%;
-}
-
-.rangeLabel {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  margin-top: 0.3rem;
-  color: #666;
-}
-
-.boutonBleu {
-  background-color: #3b82f6;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-}
-
-.boutonViolet {
-  background-color: #9333ea;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-}
-
-.boutonNoir {
-  background-color: black;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-}
-
-.grilleCartes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-.carte {
-  background-color: white;
-  height: 5rem;
-  font-size: 2rem;
-  border-radius: 0.75rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}

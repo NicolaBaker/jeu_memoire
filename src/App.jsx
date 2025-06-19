@@ -1,14 +1,14 @@
-// App.jsx
-import React, { useState } from 'react';
-import Parametre from './Parametre';
-import Jeu from './Jeu';
-import styles from './App.css'; // Import des styles
+import React, { useState } from "react";
+import Parametre from "./Parametre";
+import Footer from "./Footer";
+import Jeu from "./Jeu";
+import styles from "./App.css";
 
 export default function App() {
-  const [jeuCommence, setJeuCommence] = useState(false); // Si le jeu est lancé
-  const [parametres, setParametres] = useState({}); // Stocke les choix du joueur
+  const [jeuCommence, setJeuCommence] = useState(false);
+  const [parametres, setParametres] = useState({}); 
 
-  // Quand on clique sur "Jouer", on sauvegarde les paramètres
+  // Quand on clique sur Jouer
   const lancerJeu = (settings) => {
     setParametres(settings);
     setJeuCommence(true);
@@ -17,13 +17,16 @@ export default function App() {
   return (
     <div className={styles.appWrapper}>
       {!jeuCommence ? (
-        // Écran des paramètres
+        
+        // Paramètres
         <Parametre onStart={lancerJeu} />
       ) : (
-        // Écran du jeu
+
+        // Jeu
         <Jeu parametres={parametres} onRestart={() => setJeuCommence(false)} />
       )}
-      
+
+      <Footer />
     </div>
   );
 }
