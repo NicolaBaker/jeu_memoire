@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jeu_memoire/static/css/main.677ee7ca.css",
-    "main.js": "/jeu_memoire/static/js/main.f9c79af2.js",
+    "main.css": "/jeu_memoire/static/css/main.9228f287.css",
+    "main.js": "/jeu_memoire/static/js/main.b43323aa.js",
     "static/js/453.35ab8c81.chunk.js": "/jeu_memoire/static/js/453.35ab8c81.chunk.js",
     "index.html": "/jeu_memoire/index.html",
-    "main.677ee7ca.css.map": "/jeu_memoire/static/css/main.677ee7ca.css.map",
-    "main.f9c79af2.js.map": "/jeu_memoire/static/js/main.f9c79af2.js.map",
+    "main.9228f287.css.map": "/jeu_memoire/static/css/main.9228f287.css.map",
+    "main.b43323aa.js.map": "/jeu_memoire/static/js/main.b43323aa.js.map",
     "453.35ab8c81.chunk.js.map": "/jeu_memoire/static/js/453.35ab8c81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.677ee7ca.css",
-    "static/js/main.f9c79af2.js"
+    "static/css/main.9228f287.css",
+    "static/js/main.b43323aa.js"
   ]
 }
